@@ -1,17 +1,5 @@
-let x=10;
-console.log(x);
+"use strict";
+minhaVariavel = 10;
+console.log(minhaVariavel);
 
-x+=5;
-console.log(x);
-
-x-=3;
-console.log(x);
-
-x*=2;
-console.log(x);
-
-x/=4;
-console.log(x);
-
-x%=3;
-console.log(x);
+//aparece um textão dizendo q ta com erro

@@ -1,8 +1,2 @@
-let count =5;
-console.log(count);
-
-count++;
-console.log(count);
-
-count--;
-console.log(count);
+var altura = 1.79;
+console.log(altura)

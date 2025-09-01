@@ -1,4 +1,11 @@
-console.log("5" - 2);//5-2 é igual a 3, normal
-console.log("5" + 2);//nesse aqui ele adicionou 2 na frente de 5, tipo "5"2
-console.log(true + 1);//nesse true tinha o valor = 1, provavelmente do binário 0 e 1
-console.log(false + 10);//nesse false tinha o valor = 0
+function testeEscopo() {
+    var a = 10;
+    if (true) {
+        let b = 20;
+        console.log(a); // vai sair o 10, pq o var é universal e foi declarado fora do bloco
+        console.log(b); // vai sair 20, pq o let foi declarado dentro do mesmo bloco
+    }
+    console.log(a); // vai continuar saindo o 10
+    console.log(b); // vai ir como undefined, pq o b foi definido dentro do bloco e com let
+}
+testeEscopo();

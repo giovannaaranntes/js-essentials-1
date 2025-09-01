@@ -1,3 +1,4 @@
-let num = -15;
-num= num*-1;
-console.log(num);
+var altura;
+console.log(altura);
+
+//vem como indefinido, pq n colocamos um valor em altura ainda
